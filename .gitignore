@@ -1,0 +1,24 @@
+# Pliki środowiskowe i sekrety
+.env
+*.env
+*.pem
+*.key
+
+# Śmieci systemowe i edytorów
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Bazy danych i archiwa
+*.sqlite
+*.db
+*.tar.gz
+*.bak
+*.gguf
+*.safetensors
+
+# Pamięć podręczna Pythona
+__pycache__/
+*.py[cod]
+.pytest_cache/
